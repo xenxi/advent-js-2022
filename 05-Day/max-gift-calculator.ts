@@ -1,3 +1,7 @@
-export function getMaxGifts(giftsCities, maxGifts, maxCities) {
-    return 0
-  }
+export function getMaxGifts(
+  giftsCities: Array<number>,
+  maxGifts: number,
+  maxCities: number
+): number {
+  return 0;
+}
