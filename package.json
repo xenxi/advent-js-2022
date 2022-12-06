@@ -1,0 +1,22 @@
+{
+  "name": "advent-js-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenxi/advent-js-2022.git"
+  },
+  "author": "andiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xenxi/advent-js-2022/issues"
+  },
+  "homepage": "https://github.com/xenxi/advent-js-2022#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
