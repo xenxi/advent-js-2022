@@ -72,4 +72,6 @@ describe("Day 05", () => {
 
     expect(result).toBe(115);
   });
+
+
 });

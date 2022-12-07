@@ -3,14 +3,13 @@ export function getMaxGifts(
   maxGifts: number,
   maxCities: number
 ): number {
-  console.log(giftsCities.length, 1 << giftsCities.length);
-  return (
-    new Array(1 << giftsCities.length)
+  return Math.max(
+    ...new Array<number>(1 << giftsCities.length)
       .fill(0)
-      .map((g, i) => giftsCities.filter((g2, j) => i & (1 << j)))
+      .map((_, i) => giftsCities.filter((_, j) => i & (1 << j)))
       .filter((x) => x.length <= maxCities && x.length > 0)
       .map((com) => com.reduce((a, b) => a + b))
-      .filter((i) => i <= maxGifts)
-      .sort((a, b) => b - a)[0] || 0
+      .filter((i) => i <= maxGifts),
+    0
   );
 }
