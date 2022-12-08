@@ -1,10 +1,5 @@
-export function getGiftsToRefill(
-  a1: Array<string>,
-  a2: Array<string>,
-  a3: Array<string>
-): Array<string> {
-  return [];
-}
+import { getGiftsToRefill } from "../../07-Day/gifts-refiller";
+
 describe("Day 07", () => {
   test("Test #03", () => {
     const a1 = new Array<string>();
