@@ -21,7 +21,7 @@ describe("Day 06", () => {
 
     const result = createCube(size);
 
-    expect(result).toStrictEqual(
+    expect(result).toBe(
       " /\\_\\_\\\n/\\/\\_\\_\\\n\\/\\/_/_/\n \\/_/_/"
     );
   });
