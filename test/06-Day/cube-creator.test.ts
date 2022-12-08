@@ -1,4 +1,3 @@
-import { getMaxGifts } from "../../05-Day/max-gift-calculator";
 import { createCube } from "../../06-Day/cube-creartor";
 describe("Day 06", () => {
   test("Test #02", () => {
